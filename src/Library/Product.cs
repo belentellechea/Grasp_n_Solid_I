@@ -6,7 +6,8 @@
 
 namespace Full_GRASP_And_SOLID.Library
 {
-    public class Product
+    public class Product  
+    //ingredientes para la receta
     {
         public Product(string description, double unitCost)
         {

@@ -6,11 +6,12 @@
 
 namespace Full_GRASP_And_SOLID.Library
 {
-    public class Equipment
+    public class Equipment  
+    //equipamiento necesario para la receta
     {
         public Equipment(string description, double hourlyCost)
         {
-            this.Description = description;
+            this.Description = description; 
             this.HourlyCost = hourlyCost;
         }
 
